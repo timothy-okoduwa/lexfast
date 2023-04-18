@@ -103,7 +103,7 @@ const NavBar = () => {
 
                                 </NavDropdown>
                                 <div className='mxp por'>Pricing</div>
-                                <div className='mxp'>Partners</div>
+                                <div className='mxp patt'>Partners</div>
                                 <NavDropdown title="Learn" className="my-dropdown">
                                     <NavDropdown.Item>
                                         <div className='mb-3'>
