@@ -3,13 +3,18 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import l from './images/lexlogo.png'
 import './NavBar.css'
 const NavBar = () => {
     return (
         <div>
-            <Navbar expand="lg" className='fixed-top pt-4 pb-4' style={{ background: '#F6FAFF' }}>
+            <Navbar expand="lg" className=' pt-4 pb-4' style={{ background: '#F6FAFF' }}>
                 <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+                    <Navbar.Brand href="#home">
+                        <div>
+                            <img src={l} alt="lex" />
+                        </div>
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <div className="hello">

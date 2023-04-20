@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
+import LandingP from './pages/LandingP/LandingP';
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
   return (
     <div >
       <NavBar />
+      <LandingP />
     </div>
   );
 }

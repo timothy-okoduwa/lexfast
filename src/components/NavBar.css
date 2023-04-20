@@ -48,6 +48,10 @@
     border: none;
     margin-left: 17px;
   }
+  .put-in {
+    display: flex;
+    margin-top: 12px;
+  }
 }
 
 .my-dropdown > a {

@@ -1,0 +1,46 @@
+.dide {
+  background-color: #f6faff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.startbh {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 88px;
+  text-align: center;
+  color: #0b1644;
+}
+.moves {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #151414;
+}
+.flag-holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dfdf {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.caders {
+  width: 130%;
+}
+.memb {
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 991px) {
+  .caders {
+    width: 15%;
+  }
+}
