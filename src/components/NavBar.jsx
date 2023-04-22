@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 import l from './images/lexlogo.png'
 import './NavBar.css'
 const NavBar = () => {
@@ -12,7 +13,9 @@ const NavBar = () => {
                 <Container>
                     <Navbar.Brand href="#home">
                         <div>
-                            <img src={l} alt="lex" />
+                            <Link to='/' style={{ textDecoration: 'none' }}>
+                                <img src={l} alt="lex" />
+                            </Link>
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -167,7 +170,10 @@ const NavBar = () => {
 
                                 <div className='put-in'>
                                     <button className='signn'>SIGN IN</button>
-                                    <button className='start'>Start your company</button>
+                                    <Link to='/start' style={{ textDecoration: 'none' }}>
+                                        <button className='start'>Start your company</button>
+                                    </Link>
+
                                 </div>
                             </Nav>
                         </div>
