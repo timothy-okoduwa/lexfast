@@ -1,0 +1,160 @@
+.fhfu {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  color: #0b1644;
+}
+.answer {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #151414;
+  margin-top: 18px;
+}
+.numberr {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #4d8ec9;
+  border: 1px solid #4d8ec9;
+  margin-right: 13px;
+}
+
+.ctype {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #4d8ec9;
+}
+.chstt {
+  width: 145px;
+  height: 40px;
+  color: #4d8ec9;
+  outline: none;
+  background-color: #ffffff00;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  border: 1px solid #4d8ec9;
+  border-radius: 5px;
+}
+.climb {
+  border: 1px solid #0b1644 !important;
+  border-radius: 3px;
+  width: 100%;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  cursor: pointer;
+  background-color: transparent; /* set the initial background color */
+}
+
+.climb:hover {
+  background-color: #f6faff;
+  border: 1px solid #0b164400 !important; /* change the background color on hover */
+}
+
+.seem {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #0b1644;
+}
+
+.grate {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #151414;
+}
+
+.climb:hover .riun {
+  display: block; /* show the arrow icon only on hover */
+}
+
+.riun {
+  font-size: 22px;
+  cursor: pointer;
+  display: none; /* hide the arrow icon by default */
+}
+.flerf {
+  height: 55px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgba(255, 0, 0, 0);
+  border: 1px solid #0b1644;
+  padding-left: 14px;
+}
+.flerf2 {
+  height: 55px;
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  background-color: #4d8ec9;
+  border: 1px solid #0b164400;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.lello {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(21, 20, 20, 0.7);
+  margin-bottom: 17px;
+}
+.success {
+  font-family: "DM Serif Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #1d2a3b;
+}
+.yprr {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: rgba(21, 20, 20, 0.7);
+}
+.cony {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 134px;
+  height: 35px;
+  background: #1db954;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+}
+@media screen and (max-width: 991px) {
+  .gigigi {
+    display: none !important;
+  }
+}
