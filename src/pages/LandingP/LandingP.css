@@ -170,6 +170,20 @@
   .caders {
     width: 15%;
   }
+  .startnj {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid #4d8ec9;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    color: #4d8ec9;
+    height: 50px;
+    width: 252px;
+  }
   .case {
     font-family: "Mulish";
     font-style: normal;
