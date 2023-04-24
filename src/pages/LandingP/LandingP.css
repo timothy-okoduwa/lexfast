@@ -181,8 +181,8 @@
     background-color: transparent;
     border-radius: 5px;
     color: #4d8ec9;
-    height: 50px;
-    width: 252px;
+    height: 50px !important;
+    width: 257px !important;
   }
   .case {
     font-family: "Mulish";
@@ -195,7 +195,8 @@
     border: none;
     border-radius: 5px;
     color: #ffffff;
-    padding: 8px;
+    height: 50px !important;
+    width: 257px !important;
     margin-left: 0px !important;
   }
   .hide {
