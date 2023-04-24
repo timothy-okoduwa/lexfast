@@ -21,7 +21,7 @@ const AllInOne = () => {
                     <div className='nene'>
                         <div className="row">
                             <div className="col-12 col-lg-4  d-flex justify-content-center mb-5">
-                                <div className='wooo'>
+                                <div className='wooo2'>
                                     <div>
                                         <div className='eclips'>
                                             <img src={r} alt="" />
@@ -32,7 +32,7 @@ const AllInOne = () => {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4  d-flex justify-content-center mb-5">
-                                <div className='wooo'>
+                                <div className='wooo2'>
                                     <div>
                                         <div className='eclips'>
                                             <img src={t} alt="" />
@@ -43,7 +43,7 @@ const AllInOne = () => {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4  d-flex justify-content-center mb-5">
-                                <div className='wooo'>
+                                <div className='wooo2'>
                                     <div>
                                         <div className='eclips'>
                                             <img src={c} alt="" />
@@ -54,7 +54,7 @@ const AllInOne = () => {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4  d-flex justify-content-center mb-5">
-                                <div className='wooo'>
+                                <div className='wooo2'>
                                     <div>
                                         <div className='eclips'>
                                             <img src={ca} alt="" />
@@ -65,7 +65,7 @@ const AllInOne = () => {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4  d-flex justify-content-center mb-5">
-                                <div className='wooo'>
+                                <div className='wooo2'>
                                     <div>
                                         <div className='eclips'>
                                             <img src={p} alt="" />
@@ -76,7 +76,7 @@ const AllInOne = () => {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4  d-flex justify-content-center mb-5">
-                                <div className='wooo'>
+                                <div className='wooo2'>
                                     <div>
                                         <div className='eclips'>
                                             <img src={b} alt="" />

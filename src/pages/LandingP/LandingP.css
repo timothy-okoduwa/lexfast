@@ -225,7 +225,8 @@
   background-color: transparent;
   border-radius: 5px;
   color: #4d8ec9;
-  padding: 8px;
+  height: 50px;
+  width: 241px;
 }
 .case {
   font-family: "Mulish";
@@ -238,8 +239,9 @@
   border: none;
   border-radius: 5px;
   color: #ffffff;
-  padding: 8px;
-  margin-left: 13px;
+  height: 50px;
+  width: 252px;
+  margin-left: 15px;
 }
 .ouas {
   display: flex;
@@ -358,6 +360,10 @@
   margin-right: 14px;
   color: #b3b3bf;
 }
+.trtrt {
+  /* background-color: red; */
+  height: 20px;
+}
 .dcmt {
   font-family: "Mulish";
   font-style: normal;
@@ -367,6 +373,14 @@
 }
 .wooo {
   /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.wooo2 {
+  /* background-color: red; */
+
   width: 100%;
   margin-bottom: 30px;
 }
@@ -381,7 +395,8 @@
   color: #ffffff;
   background: #4d8ec9;
   border-radius: 5px;
-  padding: 7px;
+  width: 157.67px;
+  height: 40px;
   outline: none;
   border: none;
 }

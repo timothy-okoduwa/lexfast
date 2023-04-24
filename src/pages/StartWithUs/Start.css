@@ -98,6 +98,7 @@
   background-color: rgba(255, 0, 0, 0);
   border: 1px solid #0b1644;
   padding-left: 14px;
+  padding-right: 14px !important;
 }
 .flerf2 {
   height: 55px;
@@ -156,5 +157,10 @@
 @media screen and (max-width: 991px) {
   .gigigi {
     display: none !important;
+  }
+  .riun {
+    font-size: 22px;
+    cursor: pointer;
+    display: none !important; /* hide the arrow icon by default */
   }
 }

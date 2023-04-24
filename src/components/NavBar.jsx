@@ -21,7 +21,7 @@ const NavBar = () => {
                 <div>
                     <Navbar expand="lg" className=' pt-4 pb-4' style={{ background: '#F6FAFF' }}>
                         <Container>
-                            <Navbar.Brand href="#home">
+                            <Navbar.Brand >
                                 <div>
                                     <Link to='/' style={{ textDecoration: 'none' }}>
                                         <img src={l} alt="lex" />

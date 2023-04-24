@@ -20,7 +20,7 @@ const Second = ({ setStep, step }) => {
                                     <div className='lello'>Country</div>
                                     <div>
                                         {/* <input type="text" className='flerf' /> */}
-                                        <select className='flerf'>
+                                        <select className='flerf' >
                                             <option value="">Select your country</option>
                                             <option value="1">USA</option>
                                             <option value="2">Canada</option>

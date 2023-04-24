@@ -27,103 +27,138 @@ const Focus = () => {
 
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Document completion</span>
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <div className='dcmt'>Document completion</div>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Employee onboarding
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <div className='dcmt'>Employee onboarding
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4 d-flex justify-content-center">
+                            <div className='wooo'>
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Monthly booking
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Monthly booking
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div><div className='dcmt'>Extract from Trade & personal <br />property credit
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-4 d-flex justify-content-center">
+                            <div className='wooo'>
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Pensions
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Extract from Trade & personal property credit
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div><span className='dcmt'>Quarterly reports
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Pensions
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Unique identification number
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Quarterly reports
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div><span className='dcmt'>Taxes
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Unique identification number
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Tax declaration
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Taxes
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Registration at National <br /> Security fund
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Tax declaration
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Termination
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Registration at National Security fund
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Registered Agent
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Termination
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div>
+                                <span className='dcmt'>Certificate of no royalty for first<br /> year
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Registered Agent
-                                </span>
-                            </div>
-                        </div>
-                        <div className="col-12 col-lg-4 d-flex justify-content-center">
-                            <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Certificate of no royalty for first year
-                                </span>
-                            </div>
-                        </div>
-                        <div className="col-12 col-lg-4 d-flex justify-content-center">
-                            <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Contractor management
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div><span className='dcmt'>Contractor management
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center"></div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Certificate of direct debit
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Certificate of direct debit
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo diss'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Certificate of direct debit
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Certificate of direct debit
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo diss'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Certificate of direct debit
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Certificate of direct debit
                                 </span>
                             </div>
                         </div>
@@ -155,30 +190,40 @@ const Focus = () => {
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>Extract from Trade & personal property credit</span>
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>Extract from Trade & personal property credit</span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Unique identification number
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Unique identification number
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Registration at National Security fund
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Registration at National Security fund
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Certificate of no royalty for first year
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Certificate of no royalty for first year
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Certificate of direct debit
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Certificate of direct debit
                                 </span>
                             </div>
                         </div>
@@ -199,32 +244,42 @@ const Focus = () => {
 
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>  Employee onboarding
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>  Employee onboarding
 
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Pensions
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Pensions
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Taxes
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Taxes
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Termination
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Termination
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'>  Contractor management
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'>  Contractor management
 
                                 </span>
                             </div>
@@ -247,26 +302,34 @@ const Focus = () => {
 
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Monthly booking
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Monthly booking
 
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Quarterly reports
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Quarterly reports
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Tax declaration
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Tax declaration
                                 </span>
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 d-flex justify-content-center">
                             <div className='wooo'>
-                                <BsFillCheckCircleFill className='bsfill' /> <span className='dcmt'> Registered Agent
+                                <div className='trtrt'>
+                                    <BsFillCheckCircleFill className='bsfill' />
+                                </div> <span className='dcmt'> Registered Agent
                                 </span>
                             </div>
                         </div>
