@@ -3,6 +3,7 @@ import s from '../pages/images/soc.png'
 import b from '../pages/images/Group 8725.png'
 import o from '../pages/images/orange.png'
 import a from '../pages/images/afr.png'
+import { Link } from 'react-router-dom'
 const Trusted = () => {
     return (
         <div>
@@ -46,7 +47,10 @@ const Trusted = () => {
                         <div className="col-12 col-lg-6">
                             <div className='ouas'>
                                 <div>
-                                    <button className='startnj mb-4'>START your company</button>
+                                    <Link to='/start' style={{ textDecoration: 'none' }}>
+                                        <button className='startnj mb-4'>START your company</button>
+                                    </Link>
+
                                     <button className='case'>Read our case studies</button>
                                 </div>
                             </div>

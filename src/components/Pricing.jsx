@@ -1,8 +1,9 @@
 import React from 'react'
 import { BsFillCheckSquareFill } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 const Pricing = () => {
     return (
-        <div className='ppp'>
+        <div className='ppp' id="priciing">
             <div className="container">
                 <div className="allin">All Inclusive Pricing </div>
                 <div className="row mt-5">
@@ -12,7 +13,10 @@ const Pricing = () => {
                             <div className='ots'>One time setup fee</div>
                             <div className='shakes' ><span className='ajee'>$599</span>/one time set up fee</div>
                             <div>
-                                <button className='lfu2'>START YOUR COMPANY</button>
+                                <Link to='/start' style={{ textDecoration: 'none' }}>
+                                    <button className='lfu2'>START YOUR COMPANY</button>
+                                </Link>
+
                                 <div className='mt-4'>
                                     <BsFillCheckSquareFill className='aff' />  <span className='gvt mx-3'>Government fees, filings & everything in between</span>
                                 </div>
@@ -41,7 +45,9 @@ const Pricing = () => {
                             <div className='ots'>Monthly Plan</div>
                             <div className='shakes' ><span className='ajee'>$1100</span>/month</div>
                             <div>
-                                <button className='lfu2'>START YOUR COMPANY</button>
+                                <Link to='/start' style={{ textDecoration: 'none' }}>
+                                    <button className='lfu2'>START YOUR COMPANY</button>
+                                </Link>
                                 <div className='mt-4'>
                                     <BsFillCheckSquareFill className='aff' />  <span className='gvt mx-3'>Includes all agent fees to keep your business moving</span>
                                 </div>

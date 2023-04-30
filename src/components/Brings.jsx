@@ -9,7 +9,7 @@ import ss from '../pages/images/spaces.png'
 import aa from '../pages/images/activa.png'
 const Brings = () => {
     return (
-        <div className='nogogo'>
+        <div className='nogogo' id='Partners'>
             <div className="container">
                 <div className='brr'>Bringing deals to help your business grow </div>
 

@@ -6,6 +6,7 @@ import ca from './images/calc.png'
 import p from './images/pay.png'
 import b from './images/bag.png'
 import d from './images/dashboard.png'
+import { Link } from 'react-router-dom'
 const AllInOne = () => {
     return (
         <>
@@ -100,7 +101,10 @@ const AllInOne = () => {
                                 Remote unmoderated usability testing lets you test any digital product online without the presence of a moderator. This is accomplished by setting tasks and writing questions beforehand, which participants then complete on their own.
                             </div>
                             <div>
-                                <button className='lfu'>Start my business</button>
+                                <Link to='/start' style={{ textDecoration: 'none' }}>
+                                    <button className='lfu'>Start my business</button>
+                                </Link>
+
                             </div>
                         </div>
                     </div>

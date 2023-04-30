@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
 import l from './images/lexlogo.png'
 import { useLocation } from 'react-router-dom';
+import { Link as ScrollLink } from "react-scroll";
 import './NavBar.css'
 const NavBar = () => {
 
@@ -120,8 +121,32 @@ const NavBar = () => {
                                             </NavDropdown.Item>
 
                                         </NavDropdown>
-                                        <div className='mxp por'>Pricing</div>
-                                        <div className='mxp patt'>Partners</div>
+                                        <ScrollLink
+                                            activeClass="active"
+                                            to="priciing"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-90}
+                                            duration={300}
+
+                                            style={{ textDecoration: 'none', marginTop: '8px' }}
+                                        >
+                                            <div className='mxp por'>Pricing</div>
+                                        </ScrollLink>
+
+                                        <ScrollLink
+                                            activeClass="active"
+                                            to="Partners"
+                                            spy={true}
+                                            smooth={true}
+                                            offset={-90}
+                                            duration={300}
+
+                                            style={{ textDecoration: 'none', marginTop: '8px' }}
+                                        >
+                                            <div className='mxp patt'>Partners</div>
+                                        </ScrollLink>
+
                                         <NavDropdown title="Learn" className="my-dropdown">
                                             <NavDropdown.Item>
                                                 <div className='mb-3'>
