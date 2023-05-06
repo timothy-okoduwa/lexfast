@@ -8,7 +8,11 @@ import Fourth from './Fourth'
 
 const MultiStep = () => {
     const [step, setStep] = useState(1);
+    const [formData, setFormData] = useState({});
+
     const navigate = useNavigate()
+
+    console.log(formData)
 
     const renderForm = () => {
         switch (step) {
@@ -18,15 +22,15 @@ const MultiStep = () => {
                 );
             case 2:
                 return (
-                    <Second step={step} setStep={setStep} />
+                    <Second step={step} setStep={setStep} setFormData={setFormData} formData={formData} />
                 );
             case 3:
                 return (
-                    <Third step={step} setStep={setStep} />
+                    <Third step={step} setStep={setStep} setFormData={setFormData} formData={formData} />
                 );
             case 4:
                 return (
-                    <Fourth step={step} setStep={setStep} />
+                    <Fourth step={step} setStep={setStep} formData={formData} />
                 );
             default:
                 return null;
