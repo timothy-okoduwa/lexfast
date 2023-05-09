@@ -4,7 +4,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-
+import TextField from '@mui/material/TextField';
 const Second = ({ setStep, step, setFormData, formData }) => {
   const [country, setCountry] = useState('');
   const [city, setCity] = useState('');
@@ -27,7 +27,7 @@ const Second = ({ setStep, step, setFormData, formData }) => {
             <div className="d-flex align-items-center mb-5">
               <div className="container ">
                 <div className="row">
-                  <div className="lello">Country</div>
+                  {/* <div className="lello">Country</div> */}
                   <div className="">
                     {/* <select
                         className="window"
@@ -92,12 +92,12 @@ const Second = ({ setStep, step, setFormData, formData }) => {
             <div className="d-flex align-items-center mb-5">
               <div className="container ">
                 <div className="row">
-                  <div className="lello">City</div>
                   <div>
-                    <input
-                      type="text"
-                      className="flerf"
-                      placeholder="Enter Your City"
+                    <TextField
+                      id="outlined-basic"
+                      label="Enter Your City"
+                      variant="outlined"
+                      style={{ width: '100%' }}
                       value={city}
                       onChange={(e) => setCity(e.target.value)}
                     />
@@ -108,12 +108,20 @@ const Second = ({ setStep, step, setFormData, formData }) => {
             <div className="d-flex align-items-center mb-5">
               <div className="container ">
                 <div className="row">
-                  <div className="lello">State</div>
+                  {/* <div className="lello">State</div> */}
                   <div>
-                    <input
+                    {/* <input
                       type="text"
                       className="flerf"
                       placeholder="Enter Your State"
+                      value={state}
+                      onChange={(e) => setState(e.target.value)}
+                    /> */}
+                    <TextField
+                      id="outlined-basic"
+                      label="Enter Your State"
+                      variant="outlined"
+                      style={{ width: '100%' }}
                       value={state}
                       onChange={(e) => setState(e.target.value)}
                     />

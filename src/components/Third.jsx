@@ -3,6 +3,7 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import TextField from '@mui/material/TextField';
 
 const Third = ({ setStep, step, setFormData, formData }) => {
   const [companyName, setCompanyName] = useState('');
@@ -25,12 +26,12 @@ const Third = ({ setStep, step, setFormData, formData }) => {
             <div className="d-flex align-items-center mb-5">
               <div className="container ">
                 <div className="row">
-                  <div className="lello">Company name</div>
                   <div>
-                    <input
-                      type="text"
-                      className="flerf"
-                      placeholder="Balaride"
+                    <TextField
+                      id="outlined-basic"
+                      label="Company name"
+                      variant="outlined"
+                      style={{ width: '100%' }}
                       value={companyName}
                       onChange={(e) => setCompanyName(e.target.value)}
                     />
@@ -41,17 +42,7 @@ const Third = ({ setStep, step, setFormData, formData }) => {
             <div className="d-flex align-items-center mb-5">
               <div className="container ">
                 <div className="row">
-                  <div className="lello">Company type</div>
                   <div>
-                    {/* <select
-                      className="flerf"
-                      value={companyType}
-                      onChange={(e) => setCompanyType(e.target.value)}
-                    >
-                      <option value="">Select your country</option>
-                      <option value="music">music</option>
-                      <option value="drugs">drugs</option>
-                    </select> */}
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
                         Choose the type of company you run
@@ -102,17 +93,7 @@ const Third = ({ setStep, step, setFormData, formData }) => {
             <div className="d-flex align-items-center mb-5">
               <div className="container ">
                 <div className="row">
-                  <div className="lello">Company Industry</div>
                   <div>
-                    {/* <select
-                      className="flerf"
-                      value={companyIndustry}
-                      onChange={(e) => setCompanyIndustry(e.target.value)}
-                    >
-                      <option value="">Select your country</option>
-                      <option value="ent">ent</option>
-                      <option value="ball">ball</option>
-                    </select> */}
                     <FormControl fullWidth>
                       <InputLabel id="demo-simple-select-label">
                         What industry is your company in?
