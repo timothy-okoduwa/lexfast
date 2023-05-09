@@ -26,10 +26,12 @@
   justify-content: center;
   text-align: center;
   color: #4d8ec9;
-  border: 1px solid #4d8ec9;
+border: 1px solid #B3B3BF;
   margin-right: 13px;
 }
-
+.red{
+   border: 1px solid #4d8ec9;
+}
 .ctype {
   font-family: "Mulish";
   font-style: normal;
@@ -180,5 +182,11 @@
     font-size: 22px;
     cursor: pointer;
     display: none !important; /* hide the arrow icon by default */
+  }
+}
+
+@media screen and (min-width:992px){
+  .outside{
+    display: none !important;
   }
 }
