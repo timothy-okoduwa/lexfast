@@ -29,19 +29,27 @@ const Leftee = ({ step, setStep }) => {
         <div className="mt-5">
           <div className="d-flex align-items-center mb-5">
             <span className={`numberr ${step >= 1 ? 'red' : ''}`}>1</span>{' '}
-            <span className="ctype">Company type</span>
+            <span className={`ctype ${step >= 1 ? 'bloik' : ''}`}>
+              Company type
+            </span>
           </div>
           <div className="d-flex align-items-center mb-5">
             <span className={`numberr ${step >= 2 ? 'red' : ''}`}>2</span>{' '}
-            <span className="ctype">Registration state type</span>
+            <span className={`ctype ${step >= 2 ? 'bloik' : ''}`}>
+              Registration state type
+            </span>
           </div>
           <div className="d-flex align-items-center mb-5">
             <span className={`numberr ${step >= 3 ? 'red' : ''}`}>3</span>{' '}
-            <span className="ctype">Company Name</span>
+            <span className={`ctype ${step >= 3 ? 'bloik' : ''}`}>
+              Company Name
+            </span>
           </div>
           <div className="d-flex align-items-center mb-5">
             <span className={`numberr ${step >= 4 ? 'red' : ''}`}>4</span>{' '}
-            <span className="ctype">Submit request</span>
+            <span className={`ctype ${step >= 4 ? 'bloik' : ''}`}>
+              Submit request
+            </span>
           </div>
           <div className="d-flex align-items-center mb-5">
             <div style={{ marginRight: '60px' }}>

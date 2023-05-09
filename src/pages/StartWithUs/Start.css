@@ -1,12 +1,12 @@
 .fhfu {
-  font-family: "DM Serif Text";
+  font-family: 'DM Serif Text';
   font-style: normal;
   font-weight: 400;
   font-size: 28px;
   color: #0b1644;
 }
 .answer {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -17,7 +17,7 @@
   width: 47px;
   height: 47px;
   border-radius: 50%;
-  font-family: "DM Serif Text";
+  font-family: 'DM Serif Text';
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -26,17 +26,21 @@
   justify-content: center;
   text-align: center;
   color: #4d8ec9;
-border: 1px solid #B3B3BF;
+  border: 1px solid #b3b3bf;
   margin-right: 13px;
 }
-.red{
-   border: 1px solid #4d8ec9;
+.red {
+  border: 1px solid #4d8ec9;
 }
 .ctype {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
+
+  color: #151414;
+}
+.bloik {
   color: #4d8ec9;
 }
 .chstt {
@@ -45,7 +49,7 @@ border: 1px solid #B3B3BF;
   color: #4d8ec9;
   outline: none;
   background-color: #ffffff00;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -68,7 +72,7 @@ border: 1px solid #B3B3BF;
 }
 
 .seem {
-  font-family: "DM Serif Text";
+  font-family: 'DM Serif Text';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -76,7 +80,7 @@ border: 1px solid #B3B3BF;
 }
 
 .grate {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -109,7 +113,6 @@ border: 1px solid #B3B3BF;
   outline: none;
   background-color: rgba(255, 0, 0, 0);
   border: 1px solid #0b1644;
-
 }
 .window {
   height: 55px;
@@ -118,7 +121,6 @@ border: 1px solid #B3B3BF;
   outline: none;
   background-color: rgba(255, 0, 0, 0);
   border: none;
- 
 }
 .flerf2 {
   height: 55px;
@@ -127,7 +129,7 @@ border: 1px solid #B3B3BF;
   outline: none;
   background-color: #4d8ec9;
   border: 1px solid #0b164400;
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -135,7 +137,7 @@ border: 1px solid #B3B3BF;
   color: #ffffff;
 }
 .lello {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -143,7 +145,7 @@ border: 1px solid #B3B3BF;
   margin-bottom: 17px;
 }
 .success {
-  font-family: "DM Serif Text";
+  font-family: 'DM Serif Text';
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -151,7 +153,7 @@ border: 1px solid #B3B3BF;
   color: #1d2a3b;
 }
 .yprr {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -161,7 +163,7 @@ border: 1px solid #B3B3BF;
   color: rgba(21, 20, 20, 0.7);
 }
 .cony {
-  font-family: "Mulish";
+  font-family: 'Mulish';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -185,8 +187,8 @@ border: 1px solid #B3B3BF;
   }
 }
 
-@media screen and (min-width:992px){
-  .outside22{
+@media screen and (min-width: 992px) {
+  .outside22 {
     display: none !important;
   }
 }
