@@ -53,13 +53,13 @@ const MultiStep = ({ step, setStep }) => {
 
   return (
     <div>
-      <div className="d-flex justify-content-end outside">
-        <button className="chstt" onClick={move}>
+      <div className="d-flex justify-content-end ">
+        <button className="chstt outside22" onClick={move}>
           {' '}
           <MdArrowBack /> Back
         </button>
       </div>
-      <div style={{marginTop:'84px'}}>{renderForm()}</div>
+      <div style={{ marginTop: '84px' }}>{renderForm()}</div>
     </div>
   );
 };
