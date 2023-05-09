@@ -1,5 +1,5 @@
 import React from 'react'
-
+import l from './images/leff.png'
 const Leftee = () => {
     return (
         <div style={{ marginTop: '35px' }} className='gigigi'>
@@ -21,7 +21,7 @@ const Leftee = () => {
                     </div>
                     <div className='d-flex align-items-center mb-5'>
                         <div style={{ marginRight: '60px' }}>
-                            fjfjf
+                         <img src={l} alt="" style={{width:'100%'}} />
                         </div>
                         <button className='chstt'>CHAT WITH US</button>
                     </div>

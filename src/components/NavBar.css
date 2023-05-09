@@ -1,8 +1,9 @@
 .hello {
   width: 100%;
-
-  display: flex;
+/* background-color: red; */
+  /* display: flex;
   align-items: center;
+  justify-content: flex-end; */
   height: 100%;
 }
 .bormg {

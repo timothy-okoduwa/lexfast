@@ -34,27 +34,14 @@ const Fourth = ({ formData }) => {
                     <div className='answer'>Choose the legal entity that is right for your business</div>
                     <form ref={form} onSubmit={sendEmail}>
                         <div>
-                            {/* <select className='flerf' type="hidden" name="country" value={formData.country} style={{ display: 'none' }}>
-                                <option value="">Select your country</option>
-                                <option value="1">USA</option>
-                                <option value="2">Canada</option>
-                            </select> */}
+                            
                             <input type="hidden" name="country" value={formData.country} />
                             <input type="hidden" name="city" value={formData.city} />
                             <input type="hidden" name="state" value={formData.state} />
                             <input type="hidden" name="company_name" value={formData.companyName} />
                             <input type="hidden" name="company_type" value={formData.companyType} />
                             <input type="hidden" name="industry" value={formData.companyIndustry} />
-                            {/* <select className='flerf ' name="company_type" value={formData.companyType} style={{ display: 'none' }}>
-                                <option value="">Select your country</option>
-                                <option value="1">USA</option>
-                                <option value="2">Canada</option>
-                            </select> */}
-                            {/* <select className='flerf ' name="industry" value={formData.companyIndustry} style={{ display: 'none' }}>
-                                <option value="">Select your country</option>
-                                <option value="1">USA</option>
-                                <option value="2">Canada</option>
-                            </select> */}
+                            
                         </div>
                         <div className='mt-5'>
                             <div className='d-flex align-items-center mb-5'>
