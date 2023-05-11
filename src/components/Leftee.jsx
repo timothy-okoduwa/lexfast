@@ -55,7 +55,16 @@ const Leftee = ({ step, setStep }) => {
             <div style={{ marginRight: '60px' }}>
               <img src={l} alt="" style={{ width: '100%' }} />
             </div>
-            <button className="chstt">CHAT WITH US</button>
+            <button className="chstt">
+              <a
+                href="https://wa.me/237675631476"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ textDecoration: 'none', color: '#4d8ec9' }}
+              >
+                CHAT WITH US
+              </a>
+            </button>
           </div>
         </div>
       </div>
